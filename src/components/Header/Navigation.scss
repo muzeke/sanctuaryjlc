@@ -1,0 +1,46 @@
+@import "../../stylesheets/defaults.scss";
+
+header > nav {
+  display: block;
+  width: 66.6%;
+
+  #menu-top-nav {
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    li.menu-item {
+      padding-left: 1ex;
+      padding-right: 1ex;
+    }
+
+    .menu-item a {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 14px;
+      font-size: 0.875rem;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      letter-spacing: 0.10938rem;
+      text-transform: uppercase;
+      font-family: Raleway;
+      font-weight: 700;
+      text-decoration: none;
+      color: $secondary;
+    }
+  }
+}

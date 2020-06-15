@@ -1,0 +1,24 @@
+@import "../../stylesheets/defaults.scss";
+
+body {
+  color: $secondary;
+}
+
+img.logo {
+  width: 220px;
+}
+
+header.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid $primary;
+
+  .banner {
+    display: inline-block;
+  }
+
+  nav {
+    font-family: Satisfy;
+  }
+}
