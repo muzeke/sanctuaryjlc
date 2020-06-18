@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac2955ad37e7db19aaf8ceb30bef09b6",
+    "revision": "03f8efd4993a327af5a0b6a1db527ce2",
     "url": "/sanctuaryjlc/index.html"
   },
   {
-    "revision": "84b4a401a14e8952f29d",
-    "url": "/sanctuaryjlc/static/css/main.6784aeb4.chunk.css"
+    "revision": "2990f6c2c9e8db447666",
+    "url": "/sanctuaryjlc/static/css/main.eaf1d50e.chunk.css"
   },
   {
     "revision": "cfea729ecd04e50b7485",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sanctuaryjlc/static/js/2.60f3d1bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "84b4a401a14e8952f29d",
+    "revision": "2990f6c2c9e8db447666",
     "url": "/sanctuaryjlc/static/js/main.899a0456.chunk.js"
   },
   {
