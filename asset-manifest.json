@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/sanctuaryjlc/static/css/main.0b4cc38d.chunk.css",
-    "main.js": "/sanctuaryjlc/static/js/main.aa94fe97.chunk.js",
-    "main.js.map": "/sanctuaryjlc/static/js/main.aa94fe97.chunk.js.map",
+    "main.css": "/sanctuaryjlc/static/css/main.3b6edcc1.chunk.css",
+    "main.js": "/sanctuaryjlc/static/js/main.d58effe9.chunk.js",
+    "main.js.map": "/sanctuaryjlc/static/js/main.d58effe9.chunk.js.map",
     "runtime-main.js": "/sanctuaryjlc/static/js/runtime-main.4637879a.js",
     "runtime-main.js.map": "/sanctuaryjlc/static/js/runtime-main.4637879a.js.map",
-    "static/js/2.c57df4c5.chunk.js": "/sanctuaryjlc/static/js/2.c57df4c5.chunk.js",
-    "static/js/2.c57df4c5.chunk.js.map": "/sanctuaryjlc/static/js/2.c57df4c5.chunk.js.map",
+    "static/js/2.7e554f54.chunk.js": "/sanctuaryjlc/static/js/2.7e554f54.chunk.js",
+    "static/js/2.7e554f54.chunk.js.map": "/sanctuaryjlc/static/js/2.7e554f54.chunk.js.map",
     "index.html": "/sanctuaryjlc/index.html",
-    "precache-manifest.5b268c4224887ff72e4d7eaa2d549d75.js": "/sanctuaryjlc/precache-manifest.5b268c4224887ff72e4d7eaa2d549d75.js",
+    "precache-manifest.c9060b002fb538d2f553f7cddfcdd0f1.js": "/sanctuaryjlc/precache-manifest.c9060b002fb538d2f553f7cddfcdd0f1.js",
     "service-worker.js": "/sanctuaryjlc/service-worker.js",
-    "static/css/main.0b4cc38d.chunk.css.map": "/sanctuaryjlc/static/css/main.0b4cc38d.chunk.css.map",
-    "static/js/2.c57df4c5.chunk.js.LICENSE.txt": "/sanctuaryjlc/static/js/2.c57df4c5.chunk.js.LICENSE.txt",
+    "static/css/main.3b6edcc1.chunk.css.map": "/sanctuaryjlc/static/css/main.3b6edcc1.chunk.css.map",
+    "static/js/2.7e554f54.chunk.js.LICENSE.txt": "/sanctuaryjlc/static/js/2.7e554f54.chunk.js.LICENSE.txt",
+    "static/media/Bird.scss": "/sanctuaryjlc/static/media/bird-cells.4fafc948.svg",
     "static/media/logo-V2.png": "/sanctuaryjlc/static/media/logo-V2.e6e22003.png",
-    "static/media/logo-solo.png": "/sanctuaryjlc/static/media/logo-solo.b995a899.png"
+    "static/media/logo-solo.png": "/sanctuaryjlc/static/media/logo-solo.b995a899.png",
+    "static/media/home-component.scss": "/sanctuaryjlc/static/media/welcome-bg-short.f2c614c4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4637879a.js",
-    "static/js/2.c57df4c5.chunk.js",
-    "static/css/main.0b4cc38d.chunk.css",
-    "static/js/main.aa94fe97.chunk.js"
+    "static/js/2.7e554f54.chunk.js",
+    "static/css/main.3b6edcc1.chunk.css",
+    "static/js/main.d58effe9.chunk.js"
   ]
 }
