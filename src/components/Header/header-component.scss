@@ -1,0 +1,99 @@
+@import "../../stylesheets/defaults.scss";
+
+body {
+  color: $secondary;
+}
+
+header.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  padding-left: 4ex;
+  padding-right: 4ex;
+  position: relative;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  background: #fff;
+
+  .banner {
+    display: inline-block;
+  }
+
+  nav {
+    font-family: Satisfy;
+  }
+
+  img.logo {
+    max-width: 158px;
+  }
+
+  img.logo-solo {
+    max-width: 48px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 599px) {
+  .example {
+    background: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 767px) {
+  header.header {
+    div.banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      div.churchLogo {
+        display: none;
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 991px) {
+  header > nav.navigation {
+    display: none;
+    background: pink;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header.header {
+    div.banner {
+      div.churchLogo-mobile {
+        display: none;
+      }
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}

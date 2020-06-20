@@ -1,0 +1,75 @@
+@import "../../stylesheets/defaults.scss";
+
+.news-card {
+  min-height: 400px;
+
+  div.content {
+    position: relative;
+  }
+
+  .news-tag {
+    background: $primary-v1;
+    color: $secondary;
+    padding: 7px 12px;
+    min-width: 120px;
+    font-family: "Satisfy";
+    border-top-right-radius: $church-border-radius;
+    border-bottom-left-radius: $church-border-radius;
+    font-size: 1.2em;
+    position: relative;
+    opacity: 0.7;
+  }
+
+  .news-share {
+    background: $primary;
+    color: $primary-v1;
+    padding: 7px 12px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .news-title {
+    padding: $church-card-padding-s3;
+    .title {
+      font-size: 2em;
+      font-family: "Raleway";
+      font-weight: 700;
+      line-height: 25px;
+      text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    }
+    .subtitle {
+      font-size: 1.4em;
+      line-height: 45px;
+      text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    }
+    button {
+      color: $secondary;
+      color: var(--dark);
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 25px;
+    }
+  }
+
+  .carousel-wrapper {
+    border-radius: $church-border-radius;
+
+    .slider-control-centerleft button {
+      border-top-right-radius: $church-border-radius !important;
+      border-bottom-right-radius: $church-border-radius !important;
+    }
+    .slider-control-centerright button {
+      border-top-left-radius: $church-border-radius !important;
+      border-bottom-left-radius: $church-border-radius !important;
+    }
+
+    .slider-control-centerright button:hover,
+    .slider-control-centerleft button:hover {
+      // transform: none !important;
+    }
+  }
+
+  .carousel-wrapper img {
+    border-radius: $church-border-radius;
+  }
+}

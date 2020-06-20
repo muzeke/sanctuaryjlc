@@ -1,0 +1,115 @@
+@import "../../stylesheets/defaults.scss";
+
+main.main-wrapper {
+  color: #fff;
+  font-family: "Raleway";
+
+  div.welcome-card {
+    padding: $church-card-padding;
+    position: relative;
+    background-attachment: fixed;
+    background: url("../../images/welcome-bg-short.png") no-repeat center center
+      fixed $primary;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0px -79px;
+
+    div.welcome {
+      font-size: 3ex;
+      text-transform: uppercase;
+    }
+
+    div.title {
+      font-size: 6ex;
+      text-transform: uppercase;
+      font-family: "Raleway";
+      font-weight: 600;
+    }
+
+    div.subtitle {
+      font-size: 4ex;
+      font-family: "Satisfy";
+    }
+  }
+
+  div.two-columns {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 599px) {
+  .example {
+    background: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 767px) {
+  button.church-btn.join-us {
+    position: relative;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: $secondary;
+    text-transform: uppercase;
+  }
+
+  div.first-col {
+    flex: 1 1 100%;
+  }
+  div.second-col {
+    flex: 1 1 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 991px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  button.church-btn.join-us {
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    font-size: 1.1em;
+    color: $secondary;
+    text-transform: uppercase;
+  }
+  div.first-col {
+    flex: 1 1 65%;
+  }
+  div.second-col {
+    flex: 1 1 32%;
+    padding-left: 2.1ex;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}

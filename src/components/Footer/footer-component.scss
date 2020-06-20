@@ -1,0 +1,24 @@
+@import "../../stylesheets/defaults.scss";
+
+footer.footer {
+  border-top: 1px solid hsla(0, 0%, 9%, 0.15);
+  background: $primary-v1;
+  color: $primary-v1;
+
+  .footer-links {
+    min-height: 200px;
+    padding: $church-card-padding-s4;
+    padding-left: 0;
+    padding-right: 0;
+    color: $secondary;
+  }
+
+  div.cc {
+    background: $secondary;
+    color: $primary-v1;
+    font-family: "Raleway";
+    font-weight: 300;
+    padding: 15px;
+    font-size: 0.9em;
+  }
+}

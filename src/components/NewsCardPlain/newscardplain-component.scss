@@ -1,0 +1,47 @@
+@import "../../stylesheets/defaults.scss";
+
+.news-card-plain {
+  min-height: 400px;
+  width: 100%;
+  background-size: cover;
+
+  div.content {
+    position: relative;
+    display: flex;
+    height: 400px;
+  }
+
+  .news-tag {
+    background: $primary-v1;
+    color: $secondary;
+    padding: 7px 12px;
+    min-width: 120px;
+    font-family: "Satisfy";
+    border-top-right-radius: $church-border-radius;
+    border-bottom-left-radius: $church-border-radius;
+    font-size: 1.2em;
+    position: relative;
+    opacity: 0.7;
+  }
+
+  .news-share {
+    background: $primary;
+    color: $primary-v1;
+    padding: 7px 12px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .news-title {
+    padding: $church-card-padding-s3;
+
+    button {
+      color: $secondary;
+      color: var(--dark);
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 25px;
+    }
+  }
+}
+//end of news-card plain

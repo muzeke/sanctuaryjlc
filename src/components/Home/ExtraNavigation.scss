@@ -1,0 +1,71 @@
+@import "../../stylesheets/defaults.scss";
+
+div.extra-nav-card {
+  padding: $church-card-padding-s3;
+  color: $secondary;
+  background: #fff;
+  margin-top: 2ex;
+  box-shadow: $church-box-shadow;
+  margin-bottom: 2ex;
+  border-radius: $church-border-radius;
+
+  div.content {
+    div.title {
+      font-size: 1.5em;
+      font-family: "Raleway";
+      font-weight: 700;
+    }
+
+    div.subtitle {
+      margin-top: 4px;
+      font-weight: 500;
+      font-family: "Raleway";
+      color: var(--gray);
+    }
+
+    div.content-items {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px;
+    }
+
+    div.content-item {
+      display: flex;
+      border-top: 1px dashed rgba(23, 23, 23, 0.15);
+      width: 100%;
+      padding: 18px 15px;
+      align-items: center;
+      transition: 0.2s;
+
+      div.content-logo {
+        display: inline;
+        margin-right: 10px;
+      }
+
+      div.content-logo > img {
+        width: 28px;
+        height: 28px;
+      }
+
+      div.content-logo > svg {
+        width: 28px;
+        height: 28px;
+        color: var(--gray);
+      }
+      div.content-title {
+        display: inline;
+        font-size: 1em;
+        font-family: "Raleway";
+        font-weight: 600;
+      }
+
+      div.go-icon {
+        margin-left: auto;
+      }
+    }
+
+    div.content-item:hover {
+      transform: scale(1.03);
+    }
+  }
+}
